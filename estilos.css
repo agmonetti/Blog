@@ -40,10 +40,34 @@ section {
     text-decoration: none;
     text-align: left;
     font-size: 18px;
+    color: black;
 }
 
 .listaNav:hover {
     font-size: 20px;
     color: #ff69b4;
     transition: 0.3s;
+}
+
+.listaNavSecundaria  li{
+    list-style: none;
+    margin: 10px 20px 0 80px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+.listaNavSecundariaLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.listaNavSecundariaLinks:hover {
+    font-size: 16px;
+    color: #ff69b4;
+    transition: 0.3s;
+}
+.bienvenida img {
+    margin: 20px 0;
 }
