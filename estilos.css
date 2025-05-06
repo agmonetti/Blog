@@ -1,0 +1,49 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #ff8bd2, #70d6ff);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+
+}
+
+header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    background-color: white;
+    height: 800px;
+}
+
+section {
+    display: inline-block;
+    width: 77%;
+    background-color: white;
+    height: 800px;
+}
+
+.listaNav {
+    list-style: none;
+    margin: 10px 20px 0 30px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+}
+
+.listaNav:hover {
+    font-size: 20px;
+    color: #ff69b4;
+    transition: 0.3s;
+}
