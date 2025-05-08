@@ -142,7 +142,7 @@ iframe {
 
 .idea1Texto:hover {
     transition: 1s ease;
-    opacity: 1;
+    opacity: .8;
 } 
 .idea1Texto {
     display: inline-block;
@@ -164,8 +164,7 @@ iframe {
     width: 500px;
     top: 20%;
     left: 34%;
-    opacity: 1;;
-
+    opacity: 1;
 } 
 
 .idea2Texto {
@@ -181,7 +180,7 @@ iframe {
 
 .idea2Texto:hover {
     transition: 1s ease;
-    opacity: 1;
+    opacity: .8;
 } 
 
 
@@ -210,7 +209,7 @@ iframe {
 
 .idea3Texto:hover {
     transition: 1s ease;
-    opacity: 1;
+    opacity: .8;
 } 
 
 
