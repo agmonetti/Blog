@@ -11,8 +11,12 @@ body {
     text-align: center;
     /* padding: 20px; */
     /* background-color: #ffffff; */
-    background-color: black;
-
+    background-image: url(imagenes/telon.jpg);
+    background-attachment: fixed; /* Esto es clave para mantener el fondo estable */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 
 }
 
@@ -232,7 +236,7 @@ iframe {
     width: 400px;
     height: 300px;
     vertical-align: top;
-    border: green 2px solid;
+    /* border: green 2px solid;*/
 }
 
 .fotosInspiraciones {
@@ -244,9 +248,10 @@ iframe {
 .inpiraciones {
     width: 85%;
     /* background-color: rgb(214, 136, 136); */
-    height: 400px;
-    /* background-color: dimgray; */
-    border: red 2px solid;
+    height: 840px;
+    /* background-color: dimgray; 
+    border: red 2px solid;*/
+    margin-top: 20px; margin-bottom: 20px;
 }
 
 .titulosUnderline {
