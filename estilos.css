@@ -66,6 +66,7 @@ iframe {
     transition: 1.5s;
     /* text-decoration: underline black solid 2px; */
     text-decoration: underline white solid 2px;
+    text-underline-offset: 6px;
 }
 
 .listaNavSecun {
@@ -94,15 +95,7 @@ iframe {
         text-decoration: underline white solid 2px;
 }
 
-.bienvenida {
-    height: 863px;
-    position: relative;
-}
-.bienvenida img {
-    margin: 20px 0;
-    
 
-}
 
 .meme {
     width: 800px;
@@ -120,30 +113,16 @@ iframe {
     object-fit: cover;
 }
 
-.contenedorInspiraciones {
-    display: inline-block;
-    margin: 50px;
-    width: 400px;
-    height: 300px;
-    /* background-color: #f0f0f096; */
-    /* background-color: #000000; */
-    vertical-align: top;
-}
-
-.fotosInspiraciones {
-    display: inline-block;
-    width: 200px;
-}
-
-.inpiraciones {
+.bienvenida {
+    height: 863px;
+    position: relative;
+    /* border: white 2px solid; */
     width: 85%;
-    /* background-color: rgb(214, 136, 136); */
-    height: 400px;
-    /* background-color: dimgray; */
+    
 }
-
-
-
+.bienvenida img {
+    margin: 20px 0;
+}
 
 .idea1 {
     display: inline-block;
@@ -152,19 +131,56 @@ iframe {
     height: 600px;
     width: 500px;
     top: 20%;
-    left: 2%;
+    left: 2.8%;
+    opacity: 1;
 }
 
-.idea2 {
+
+.idea1Texto:hover {
+    transition: 1s ease;
+    opacity: 1;
+} 
+.idea1Texto {
+    display: inline-block;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 13.4%;
+    left: 10%;
+    opacity: 0;;
+    background-color: black;
+}
+
+
+ .idea2 {
     /* border: red 2px solid; */
     display: inline-block;
     position: absolute;
     height: 600px;
     width: 500px;
     top: 20%;
-    left: 36%;
+    left: 34%;
+    opacity: 1;;
 
-}
+} 
+
+.idea2Texto {
+    display: inline-block;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 13.4%;
+    left: 10%;
+    opacity: 0;
+    background-color: black;
+} 
+
+.idea2Texto:hover {
+    transition: 1s ease;
+    opacity: 1;
+} 
+
+
 
 .idea3{
     /* border: red 2px solid; */
@@ -173,7 +189,30 @@ iframe {
     height: 600px;
     width: 500px;
     top: 20%;
-    left: 70%;
+    left: 66%;
+
+}
+
+.idea3Texto {
+    display: inline-block;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: 13.4%;
+    left: 10%;
+    opacity: 0;
+    background-color: black;
+} 
+
+.idea3Texto:hover {
+    transition: 1s ease;
+    opacity: 1;
+} 
+
+
+.descripcionPelicula {
+    font-size: 20px;
+    justify-content: center;
 
 }
 
@@ -184,4 +223,35 @@ iframe {
     width: 400px;
     top: 10%;
     left: 10%;
+    /* border: green 2px solid; */
 }
+
+.contenedorInspiraciones {
+    display: inline-block;
+    margin: 50px;
+    width: 400px;
+    height: 300px;
+    vertical-align: top;
+    border: green 2px solid;
+}
+
+.fotosInspiraciones {
+    display: inline-block;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.inpiraciones {
+    width: 85%;
+    /* background-color: rgb(214, 136, 136); */
+    height: 400px;
+    /* background-color: dimgray; */
+    border: red 2px solid;
+}
+
+.titulosUnderline {
+    text-decoration: underline 2px ; 
+    text-underline-offset: 6px;
+    margin-bottom: 5px; 
+}
+
