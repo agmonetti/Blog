@@ -54,15 +54,16 @@ img {
 .textoCat:hover {
     transition: 1.5s;
     text-decoration: underline black solid 2px;
-    text-underline-offset: 8px;
+    text-underline-offset: 12px;
 }
 
 .categorias {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100vh;
+    height: auto;
     justify-content: center;
+    margin-bottom: 30vh;
 
 }
 
@@ -74,7 +75,6 @@ img {
     text-decoration: none;
     list-style: none;
     align-items: center;
-    
 }
 
 
