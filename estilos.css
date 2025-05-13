@@ -137,12 +137,25 @@ hr {
     background-image: url(imagenes/fondo2.jpg);
     background-repeat: repeat;
     background-size: auto;
+    margin-top: 150px;
     
 }
 
-.articuloPeliculas img , .articuloPeliculas2 img{
+.articuloPeliculasSecundario {
+    margin-top: 50px;
+    background-image: url(imagenes/fondo2.jpg);
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articuloPeliculas img , .articuloPeliculas2 img {
     width: 350px;
 
+}
+
+.articuloPeliculasSecundario img {
+    width: 500px;
 }
 
 .contenedorHijos {
@@ -153,6 +166,14 @@ hr {
     gap: 20px;
     margin-bottom: 280px;
     
+}
+
+.contenedorHijosSecundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: red solid 2px; */
+    gap: 20px;
 }
 
 .botonCategoriaPelicula {
