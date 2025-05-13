@@ -8,14 +8,13 @@
 </head>
 <!-- 
     to do:
-    - hacer parte categorias
+    - hacer parte categorias  - DONE
     - organizar los articulos con flexbox
     - empezar con los estilos
     - ver tipografias
     - ver colores
     - ver como poner la breve descripcion en la imagen con absolute y hover
     - agregar pagina contacto
-
 -->
 
 
@@ -41,59 +40,60 @@
 
     <ul class="categoriaRow">
         <li class="categoriaHijos">
-            <img src="imagenes/categoriaAccion.jpg" alt="" class="imgCategoria">
-            <p class="categoriaTexto">Accion</p>
+            <img src="imagenes/categoriaAccion.jpg" alt="">
+            <a href="#accion"><p class="categoriaTexto">Accion</p></a>
         </li>
         <li class="categoriaHijos">
-            <img src="imagenes/categoriaComedia.jpg" alt=""> 
-            <p class="categoriaTexto">Comedia</p>
+            <img src="imagenes/categoriaComedia.jpg" alt="">
+            <a href="#comediaRom"><p class="categoriaTexto">Comedia</p></a>
         </li>
         <li class="categoriaHijos">
             <img src="imagenes/categoriaFantasia.jpg" alt="">
-            <p class="categoriaTexto">Fantasia</p>
+            <a href="#fantasia"><p class="categoriaTexto">Fantasia</p></a>
         </li>
         <li class="categoriaHijos">
             <img src="imagenes/categoriaRomance.jpg" alt="">
-            <p class="categoriaTexto">Romance</p>
+            <a href="#comediaRom"><p class="categoriaTexto">Romance</p></a>
         </li>
         <li class="categoriaHijos">
             <img src="imagenes/categoriaAnimada.jpg" alt="">
-            <p class="categoriaTexto">Animada</p>
+            <a href="#animada"><p class="categoriaTexto">Animada</p></a>
         </li>
     </ul>
   </section>
 
-  <article>
-      <h2>Harry Potter: La piedra filosofal (2001) </h2>
-        <img src="imagenes/harrypotter.jpg" alt="Pelicula Harry potter">
-        <p>Harry es un niño huérfano criado por sus crueles tíos, que un día descubre que es un mago y ha sido aceptado en el Colegio Hogwarts de Magia y Hechicería. Allí vivirá su primer año entre hechizos, amistades y misterios, enfrentando un oscuro secreto ligado a una piedra con poderes extraordinarios.</p>
+ <article class="articuloPeliculas">    <!-- fantasia -->
+      <h2 id="fantasia">Harry Potter: La piedra filosofal (2001) </h2>
+        <img src="imagenes/harrypotter.jpg" alt="Pelicula Harry potter" class="articuloImg">
+        <p class="articuloTexto">Harry es un niño huérfano criado por sus crueles tíos, que un día descubre que es un mago y ha sido aceptado en el Colegio Hogwarts de Magia y Hechicería. Allí vivirá su primer año entre hechizos, amistades y misterios, enfrentando un oscuro secreto ligado a una piedra con poderes extraordinarios.</p>
         <a href="">Continuar leyendo</a>
         <hr>
   </article>
   
-  <article>
-    <h2>La familia del futuro (2007)</h2>
+  <article class="articuloPeliculas">  <!-- animada -->
+    <h2 id="animada">La familia del futuro (2007)</h2>
       <img src="imagenes/familiaDelFuturo.jpg" alt="Pelicula Harry potter">
       <p>Lewis es un joven inventor huérfano que sueña con encontrar a su madre biológica. Pero todo cambia cuando viaja al futuro junto a un misterioso chico llamado Wilbur Robinson. Allí conocerá a una familia fuera de lo común que lo ayudará a descubrir el valor de creer en uno mismo y nunca dejar de avanzar.</p>
       <a href="">Continuar leyendo</a>
       <hr>
     </article>
 
-    <article>
-        <h2>Rápidos y furiosos (2001) </h2>
+    <article class="articuloPeliculas">   <!-- accion -->
+        <h2 id="accion">Rápidos y furiosos (2001) </h2>
         <img src="imagenes/rapidosFuriosos.jpg" alt="Pelicula Harry potter">
         <p>Brian O’Conner es un policía encubierto que se infiltra en el mundo de las carreras callejeras para investigar una banda de ladrones. Pero su lealtad se pone a prueba cuando se involucra con Dominic Toretto y su equipo, descubriendo una nueva familia entre motores, velocidad y adrenalina.</p>
         <a href="">Continuar leyendo</a>
         <hr>
     </article>
 
-    <article>
-        <h2>Spider-Man 2 (2004) </h2>
-        <img src="imagenes/spiderman.jpg" alt="Pelicula Harry potter">
-        <p>Peter Parker intenta equilibrar su vida como estudiante, fotógrafo y superhéroe, pero todo se complica cuando su poder comienza a fallar y un nuevo villano amenaza la ciudad: el Doctor Octopus. Mientras lucha por encontrar su lugar en el mundo, Peter debe decidir si puede realmente ser Spider-Man… o simplemente vivir como Peter</p>
+    <article class="articuloPeliculas"> <!-- romance -->
+        <h2 id="comediaRom">Como si fuera la primera vez (2004) </h2>
+        <img src="imagenes/comosifuera.jpg" alt="Pelicula Harry potter">
+        <p>Henry, un hombre que evita compromisos, se enamora perdidamente de Lucy, una joven con pérdida de memoria a corto plazo. Cada día ella olvida quién es él, y Henry debe conquistarla desde cero, una y otra vez, en una historia romántica, tierna y original sobre el amor verdadero.</p>
         <a href="">Continuar leyendo</a>
         <hr>
     </article>
+
 
     <article>
         <a href="index2.html">Pagina siguiente</a>

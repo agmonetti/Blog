@@ -46,7 +46,8 @@ img {
 
 .textoCat {
     font-size: 50px;
-    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-bottom: 150px;
     align-self: flex-start;
     margin-left: 200px;
 }
@@ -110,6 +111,27 @@ img {
   }
 
 
+.articuloPeliculas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articuloPeliculas img {
+    width: 350px;
+    min-width: 50px;
+    margin: auto;
+
+}
+
+.articuloImg {
+    
+}
+
+.articuloTexto {
+    
+}
 
 
 
