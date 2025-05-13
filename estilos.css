@@ -140,7 +140,7 @@ hr {
     
 }
 
-.articuloPeliculas img {
+.articuloPeliculas img , .articuloPeliculas2 img{
     width: 350px;
 
 }
