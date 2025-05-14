@@ -234,9 +234,34 @@ html {
 
 .botonSiguienteAnterior:hover {
     transition: .5s ease;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(219, 219, 219);
+}
 
-   
+.contenedorFooter{
+    /* border: red solid 2px; */
+
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.textoFooter {
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: black;
+}
+
+
+.footerIcono {
+    width: 32px;
+    height: 32px;
+    margin: 0 10px;
+}
+
+.footerIcono:hover {
+    transition: .5s ease;
+    background-color: rgb(219, 219, 219);
 }
 
 /* Añade esto al final de tu archivo CSS
