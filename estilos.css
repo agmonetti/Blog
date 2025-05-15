@@ -211,10 +211,9 @@ hr {
 }
 
 .articuloTexto a:hover {
-    text-decoration: underline blue solid 2px;
-    text-underline-offset: 6px;
-    transition: 1s ease;
-    color: blue;
+    transition: .5s ease;
+    background-color: rgb(197, 196, 196);
+    border-radius: 8px;
 
 }
 
@@ -244,7 +243,8 @@ html {
 
 .botonSiguienteAnterior:hover {
     transition: .5s ease;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(197, 196, 196);
+    border-radius: 8px;
 }
 
 .contenedorFooter{
@@ -271,7 +271,8 @@ html {
 
 .footerIcono:hover {
     transition: .5s ease;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(197, 196, 196);
+    border-radius: 20px;
 }
 
 
