@@ -11,6 +11,7 @@ body {
     /* padding: 20px; */
     background-color: #ffffff;
     min-height: 100vh;
+    
 
 }
 
@@ -27,6 +28,7 @@ img {
 hr {
     display: none;
 }
+
 
 
 .listaNav {
@@ -144,10 +146,14 @@ hr {
 .articuloPeliculasSecundario {
     margin-top: 50px;
     background-image: url(imagenes/fondo2.jpg);
+    /* background-color: black; */
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    
+    
 }
+
 
 .articuloPeliculas img , .articuloPeliculas2 img {
     width: 350px;
@@ -174,6 +180,7 @@ hr {
     justify-content: center;
     /* border: red solid 2px; */
     gap: 20px;
+    
 }
 
 .botonCategoriaPelicula {
@@ -263,6 +270,8 @@ html {
     transition: .5s ease;
     background-color: rgb(219, 219, 219);
 }
+
+
 
 /* Añade esto al final de tu archivo CSS
 
