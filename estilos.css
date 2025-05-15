@@ -275,6 +275,36 @@ html {
     border-radius: 20px;
 }
 
+.seccionSobreMi {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: red solid 2px; */
+    justify-content: center;
+
+}
+
+.textoSobreMi {
+    /* border: yellow solid 2px; */
+    align-self: left;
+    width: 30ch;
+    margin-top: 20px;
+}
+
+.contenedorSobreMi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: blue solid 2px; */
+    gap: 20px;
+}
+.fotoPerfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
 
 
 /* Añade esto al final de tu archivo CSS
