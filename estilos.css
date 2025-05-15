@@ -10,7 +10,7 @@ body {
     text-align: center;
     /* padding: 20px; */
     background-color: #ffffff;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     
 
 }
@@ -150,6 +150,7 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    /* border: red solid 2px; */
     
     
 }
@@ -162,6 +163,7 @@ hr {
 
 .articuloPeliculasSecundario img {
     width: 500px;
+    height: 650px;
 }
 
 .contenedorHijos {
@@ -178,10 +180,11 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* border: red solid 2px; */
+    /* border: blue solid 2px; */
     gap: 20px;
     
 }
+
 
 .botonCategoriaPelicula {
     /* border: 2px solid black; */
