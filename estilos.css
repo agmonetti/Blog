@@ -139,8 +139,8 @@ hr {
     justify-content: center;
     /*background-image: url(imagenes/fondo.jpg);
     background-repeat: repeat;
-    background-size: auto; */
-    border-top: black solid .125rem; 
+    background-size: auto; 
+    border-top: black solid .125rem; */
     padding-top: 1.25rem; /* Espacio entre el borde superior y el contenido */
     margin-top: .375rem;
     
@@ -150,7 +150,7 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    margin-bottom: 12rem;
+   
 }
 
 .articuloImg{
@@ -161,6 +161,7 @@ hr {
 .contenidoTexto {
     max-width: 600px;
     text-align: center;
+    align-self: center;
     
 }
 
@@ -298,7 +299,13 @@ hr {
     font-size: 1.5rem; /* 24px */
     text-decoration: none;
     color: black;
+   
 
+}
+
+. {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .botonSiguienteAnterior:hover {
@@ -378,17 +385,17 @@ hr {
     .articuloPeliculas {
         flex-direction: row;
         flex-wrap: wrap;
-        border: 2px solid red;
     }
 
 
     .contenedorHijos{
         flex-direction: row;
-         border: 2px solid blue;
+     margin-bottom: 12rem;
     }
 
+
     .articuloPeliculas h2 {
-        border: 5px solid green;
+        /* border: 5px solid green;*/
         height: 100px;
     }
 
