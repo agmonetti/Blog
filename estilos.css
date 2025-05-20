@@ -377,12 +377,19 @@ hr {
 
     .articuloPeliculas {
         flex-direction: row;
+        flex-wrap: wrap;
         border: 2px solid red;
     }
+
 
     .contenedorHijos{
         flex-direction: row;
          border: 2px solid blue;
+    }
+
+    .articuloPeliculas h2 {
+        border: 5px solid green;
+        height: 100px;
     }
 
 
