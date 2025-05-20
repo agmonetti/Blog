@@ -40,9 +40,8 @@ hr {
 }
 
 .contenido {
-    background-image: url(imagenes/fondo.jpg);
-    background-repeat: repeat;
-    background-size: auto; 
+    background-image: url(imagenes/fondo\ nuevo.jpg);
+    /* text-align: justify;  */
 }
 
 
@@ -156,6 +155,7 @@ hr {
     flex-direction: column;
     gap: 1.25rem;
    
+   
 }
 
 .articuloImg{
@@ -164,10 +164,31 @@ hr {
    
 }
 .contenidoTexto {
-    max-width: 600px;
     text-align: center;
     align-self: center;
     
+}
+
+
+.articuloTexto {
+    /* border: green solid 2px; */
+    align-self: center;
+    margin-top: 10%;
+
+}
+
+.articuloTexto a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem; /* 24px */
+
+}
+
+.articuloTexto a:hover {
+    transition: .5s ease;
+    background-color: rgb(197, 196, 196);
+    border-radius: .5rem; /* 8px */
+
 }
 
 
@@ -196,21 +217,12 @@ hr {
     background-image: url(imagenes/fondo2.jpg);
     background-repeat: repeat;
     background-size: auto;*/
-    margin-top: 2rem; /* 150px */
+    padding-top: 1.25rem; /* Espacio entre el borde superior y el contenido */
+    margin-top: .375rem;
     
 }
 
-.articuloPeliculasSecundario {
-    margin-top: 3.125rem; /* 50px */
-    background-image: url(imagenes/fondo3.jpg);
-    /* background-color: black; */
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* border: red solid 2px; */
-    
-    
-}
+
 
 .articuloPeliculas img,
 .articuloPeliculas2 img {
@@ -220,6 +232,18 @@ hr {
   object-fit: cover;
 }
 
+.articuloPeliculasSecundario {
+    margin-top: 3.125rem; /* 50px */
+    background-image: url(imagenes/fondo\ nuevo.jpg);
+    /* background-color: black; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: red solid 2px; */
+    
+    
+}
+
 .articuloPeliculasSecundario img {
   width: 100%;
   max-width: 500px;
@@ -227,10 +251,7 @@ hr {
   object-fit: cover;
 }
 
-.footer {
-    margin-top: 1.25rem; /* 20px */
-    border-top: .125rem solid black;
-}
+
 
 .contenedorHijosSecundario {
     display: flex;
@@ -239,6 +260,11 @@ hr {
     /* border: blue solid 2px; */
     gap: 1.25rem;
     
+}
+
+.footer {
+    margin-top: 1.25rem; /* 20px */
+    border-top: .125rem solid black;
 }
 
 
@@ -264,27 +290,7 @@ hr {
 
 
 
-.articuloTexto {
-    /* border: green solid 2px; */
-    align-self: center;
-    margin-top: 10%;
-    
-    
-}
 
-.articuloTexto a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem; /* 24px */
-
-}
-
-.articuloTexto a:hover {
-    transition: .5s ease;
-    background-color: rgb(197, 196, 196);
-    border-radius: .5rem; /* 8px */
-
-}
 
 
 
@@ -391,15 +397,29 @@ hr {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-
-    .contenedorHijos{
+    .articuloPeliculas2 {
         flex-direction: row;
-     margin-bottom: 12rem;
+        flex-wrap: wrap;
+        margin-top: 5rem;
     }
 
 
-    .articuloPeliculas h2 {
+    .contenidoTexto h2 {
+    margin-left: 10%;
+}
+
+    .articuloTexto{
+        margin-left: 10%;
+        width: 60ch;
+    }
+    .contenedorHijos{
+        flex-direction: row;
+        margin-bottom: 12rem;
+        width: 75%;
+    }
+
+
+    .articuloPeliculas h2 , .articuloPeliculas2 h2{
         /* border: 5px solid green;*/
         height: 100px;
     }
@@ -417,6 +437,11 @@ hr {
   }
     img {
         max-width: 400px;
+  }
+
+    .botonCategoriaPelicula {
+        text-align: center;
+        margin-left: 20%;
   }
 }
 
