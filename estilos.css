@@ -6,7 +6,7 @@
 
 html {
     scroll-behavior: smooth; 
-    scroll-padding-top: 3rem; /* 48px */ 
+    scroll-padding-top: 7.5rem; /* 48px */ 
     font-size: 100%; /* 16px  es 1 rem*/  
 }
 
@@ -445,7 +445,7 @@ iframe {
 @media (min-width: 1024px) {
 
     html {
-        scroll-padding-top: 120px;
+        scroll-padding-top: 7.5rem;
     }
 
     #fantasia {
