@@ -6,7 +6,7 @@
 
 html {
     scroll-behavior: smooth; 
-    scroll-padding-top: 120px; 
+    scroll-padding-top: 3rem; /* 48px */ 
     font-size: 100%; /* 16px  es 1 rem*/  
 }
 
@@ -289,7 +289,10 @@ hr {
 }
 */
 
-
+.contenido article {
+    margin-bottom: 5rem;
+    
+}
 
 
 .botonCategoriaPelicula {
@@ -305,15 +308,19 @@ hr {
 
 
 #fantasia {
-    scroll-margin-top: 7.5rem; /* 120px */
+    scroll-margin-top: 32rem; /* 512px */
 }
 
 #accion {
-    scroll-margin-top: 9.375rem; /* 150px */
+    scroll-margin-top: 34rem; /* 544px*/
 }
 
 #animada {
-    scroll-margin-top: 7.5rem; /* 120px */
+    scroll-margin-top: 32rem; /* 512px */
+}
+
+#comediaRom{
+    scroll-margin-top: 32rem; /* 512px */
 }
 
 .botonSiguienteAnterior {
@@ -436,6 +443,23 @@ iframe {
 
 /* Estilo para escritorio */
 @media (min-width: 1024px) {
+
+    html {
+        scroll-padding-top: 120px;
+    }
+
+    #fantasia {
+    scroll-margin-top: 7.5rem; /* 120px */
+    }
+
+    #accion {
+        scroll-margin-top: 9.375rem; /* 150px */
+    }
+
+    #animada {
+        scroll-margin-top: 7.5rem; /* 120px */
+    }
+
 
     .navEscritorio {
         display: block;
@@ -976,5 +1000,5 @@ hr {
 
 
 */
-}
+
 
