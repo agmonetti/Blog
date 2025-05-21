@@ -177,13 +177,18 @@ hr {
     /* border: green solid 2px; */
     align-self: center;
     margin-top: 10%;
-
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+   
 }
 
 .articuloTexto a {
     text-decoration: none;
     color: black;
     font-size: 1.5rem; /* 24px */
+    margin-left: 21%;
+    
 
 }
 
@@ -516,6 +521,12 @@ iframe {
         width: 60ch;
 
     }
+
+      .articuloTexto a {
+        margin-left: 36%;
+    }
+
+  
     .contenedorHijos{
         flex-direction: row;
         margin-bottom: 12rem;
