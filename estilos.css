@@ -23,6 +23,7 @@ body {
 
 }
 
+
 header {
     margin-top: 1.25rem; /* 20px */
     border-bottom: 0.125rem solid black; /* 2px */
@@ -40,7 +41,8 @@ hr {
 }
 
 .contenido {
-    background-image: url(imagenes/fondo\ nuevo.jpg);
+    background-image: url(imagenes/FondoVersion2.jpg);
+    
     /* text-align: justify;  */
 }
 
@@ -129,6 +131,7 @@ hr {
     padding: 9.375rem 0; /* 150px */
     opacity: 0;
     transition: opacity 0.3s ease;
+    font-size: 1.35rem;
   }
   
 .categoriaHijos:hover .categoriaTexto {
@@ -245,7 +248,7 @@ hr {
 }
 
 .articuloPeliculasSecundario img {
-  width: 100%;
+  width: 80%;
   max-width: 500px;
   height: auto; /* Reemplaza los 650px fijos para que se adapte */
   object-fit: cover;
@@ -255,11 +258,18 @@ hr {
 
 .contenedorHijosSecundario {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     /* border: blue solid 2px; */
     gap: 1.25rem;
     
+}
+
+.contenedorHijosSecundario p {
+    font-size:1.2rem;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .footer {
@@ -397,9 +407,63 @@ iframe {
     margin-top: 30px;
 }
 
+.navEscritorio {
+    display:none
+}
+
+.listaNavResponsive{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+    font-size: 1.5rem; 
+    color: black; 
+    color: black;
+    transition: all 0.3s ease;
+    
+   
+}
+
+.listaNavResponsive:hover {
+    transition: 1.5s;
+    text-decoration: underline black solid 2px; 
+    text-decoration: underline black solid 0.125rem;
+    text-underline-offset: 0.375rem;
+}
+
 
 /* Estilo para escritorio */
 @media (min-width: 1024px) {
+
+    .navEscritorio {
+        display: block;
+        width: 100%;
+    }
+    
+    .navEscritorioLista {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+    }
+
+    .liEscritorio {
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .navEscritorio p {
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    .navResponsive {
+        display: none;
+    }
 
     .textoCat {
         margin-top: 6.25rem;  
@@ -450,7 +514,28 @@ iframe {
     .articuloPeliculasSecundario img {
         max-width: 450px;
         height: 600px;
+        width: 100%;
   }
+
+    .articuloPeliculasSecundario {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedorHijosSecundario {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .contenedorHijosSecundario p {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
     img {
         max-width: 400px;
   }
