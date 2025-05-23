@@ -177,7 +177,9 @@ justify-content: center;
 
 .articuloTexto {
     /* border: green solid 2px; */
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10%;
     text-align: justify;
    
@@ -187,9 +189,7 @@ justify-content: center;
     text-decoration: none;
     color: black;
     font-size: 1.5rem; /* 24px */
-    padding-left: 3.4rem;
-
-
+    border: 2px solid red;
 }
 
 
