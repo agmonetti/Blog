@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
 }
 
 
@@ -42,9 +42,11 @@ hr {
     display: none;
 }
 
-.contenido {
+.contenido{
     background-image: url(imagenes/FondoVersion2.jpg);
-
+    background-size: fill; /* Cubre toda el área */
+    background-repeat: repeat; /* Evita que la imagen se repita */
+    background-position: center;
 }
 
 
@@ -180,8 +182,9 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
     text-align: justify;
+    width: 90%;
+    margin: 10% auto;
    
 }
 
@@ -342,7 +345,7 @@ justify-content: center;
     width: 100%;
     margin: 0 auto;
     height: auto;
-    background-image: url(imagenes/FondoVersion2.jpg);
+    
 }
 
 .contactoFormulario {
@@ -582,6 +585,7 @@ iframe {
    
     .articuloTexto a {
         width: 100%;
+        margin-top: 2rem;
     }
 
 
