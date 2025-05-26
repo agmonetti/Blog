@@ -307,19 +307,19 @@ justify-content: center;
 
 
 #fantasia {
-    scroll-margin-top: 32rem; /* 512px */
+    scroll-margin-top: 31rem; /* 512px */
+}
+#accion {
+    scroll-margin-top: 31rem; /* 544px */
 }
 
-#accion {
-    scroll-margin-top: 34rem; /* 544px*/
-}
 
 #animada {
-    scroll-margin-top: 32rem; /* 512px */
+    scroll-margin-top: 31rem; /* 512px */
 }
 
 #comediaRom{
-    scroll-margin-top: 32rem; /* 512px */
+    scroll-margin-top: 31rem; /* 512px */
 }
 
 .botonSiguienteAnterior {
@@ -444,9 +444,7 @@ iframe {
 @media (min-width: 768px) and (max-width: 1024px) {
 
 
-      .articuloTexto a {
-        padding-left: 13rem;
-    }
+
 
     h2 {
         font-size: 2.5rem;
@@ -475,6 +473,10 @@ iframe {
     }
 
     #animada {
+        scroll-margin-top: 7.5rem; /* 120px */
+    }
+
+    #comediaRom{
         scroll-margin-top: 7.5rem; /* 120px */
     }
 
@@ -535,9 +537,7 @@ iframe {
    
 
       .articuloTexto a {
-        padding-left: 0;
-
-        margin-left: 37%;
+        margin-left: 6%;
 
     }
 
