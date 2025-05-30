@@ -257,8 +257,6 @@ justify-content: center;
 
 
 .contenedorHijosSecundario {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     /* border: blue solid 2px; */
     gap: 1.25rem;
@@ -328,6 +326,16 @@ justify-content: center;
     color: black;
    
 
+}
+.botonSiguienteAnteriorMas {
+    font-size: 4rem; /* 24px */
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+}
+
+.footerMas {
+    border-top: 2px solid black;
 }
 
 .articuloSigAnterior{
@@ -510,6 +518,10 @@ iframe {
     width: 2.5rem; /* 24px */
     height: 2.5rem; /* 24px */
     vertical-align: middle;
+}
+
+.generoLeerMas {
+    margin-bottom: 2rem;
 }
 
 
