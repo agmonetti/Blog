@@ -322,12 +322,11 @@ justify-content: center;
     font-size: 1.5rem; /* 24px */
     text-decoration: none;
     color: black;
-   
+    
 
 }
 .botonSiguienteAnteriorMas {
     font-size: 4rem;
-    width: 10rem; /* 24px */
     text-decoration: none;
     padding: 2rem;
     color: black;
@@ -720,10 +719,15 @@ iframe {
         height: 18.8rem; /* 300px */
     }
 
+    .botonSiguienteAnterior{
+        padding: .2rem 1.5rem;
+    }
+
     .botonSiguienteAnterior:hover {
     transition: .5s ease;
     background-color: rgb(197, 196, 196);
-    border-radius: .5rem; /* 8px */
+    border-radius: .6rem; /* 8px */
+    
 }
     input[type="submit"]:hover {
         transition: .5s ease;
