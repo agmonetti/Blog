@@ -266,8 +266,6 @@ justify-content: center;
 .contenedorHijosSecundario p {
     font-size:1.2rem;
     text-align: justify;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 .footer {
@@ -328,7 +326,8 @@ justify-content: center;
 
 }
 .botonSiguienteAnteriorMas {
-    font-size: 4rem; /* 24px */
+    font-size: 4rem;
+    width: 10rem; /* 24px */
     text-decoration: none;
     padding: 2rem;
     color: black;
@@ -522,6 +521,7 @@ iframe {
 
 .generoLeerMas {
     margin-bottom: 2rem;
+    margin-left: 5%;
 }
 
 
