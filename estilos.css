@@ -242,7 +242,7 @@ justify-content: center;
 }
 
 .articuloPeliculasSecundario {
-    margin-top: 3.125rem; /* 50px */
+    margin-top: 2rem; /* 50px */
     background-image: url(imagenes/fondo\ nuevo.jpg);
     /* background-color: black; */
     flex-direction: column;
@@ -253,12 +253,6 @@ justify-content: center;
     
 }
 
-.articuloPeliculasSecundario img {
-  width: 80%;
-  max-width: 500px;
-  height: auto; /* Reemplaza los 650px fijos para que se adapte */
-  object-fit: cover;
-}
 
 
 
@@ -452,6 +446,7 @@ iframe {
     border: 0;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .navEscritorio {
@@ -478,6 +473,37 @@ iframe {
     text-decoration: underline black solid 2px; 
     text-decoration: underline black solid 0.125rem;
     text-underline-offset: 0.375rem;
+}
+
+
+
+.iconoLeermas {
+    width: 3.15rem;/* 50px */
+    height: 3.15rem; /* 50px */ 
+
+}
+.titulosLeerMas {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.iconoLeermas {
+  vertical-align: middle;
+}
+
+.calificacion {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.calificacion li{
+    display: inline;
+    
+}
+
+.calificacion img {
+    width: 3rem; /* 24px */
+    height: 3rem; /* 24px */
+    vertical-align: middle;
 }
 
 
