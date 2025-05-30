@@ -261,11 +261,13 @@ justify-content: center;
     /* border: blue solid 2px; */
     gap: 1.25rem;
     
+    
 }
 
 .contenedorHijosSecundario p {
     font-size:1.2rem;
     text-align: justify;
+    
 }
 
 .footer {
@@ -481,7 +483,13 @@ iframe {
     text-underline-offset: 0.375rem;
 }
 
+.textoSecu{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid black;
+    width: 90%;
+    margin: 1rem auto;
 
+}
 
 .iconoLeermas {
     width: 3.15rem;/* 50px */
@@ -623,6 +631,7 @@ iframe {
         margin-left: 10%;
         width: 60ch;
         text-align: justify;
+        
     }
 
    
