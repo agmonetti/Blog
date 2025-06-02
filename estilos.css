@@ -350,35 +350,89 @@ justify-content: center;
     
 }
 
+/* Estilos mejorados para el formulario en versión móvil */
+#contacto {
+    width: 80%;
+    margin: 2rem auto 3rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(242, 54, 54, 0.8);;
+}
+
+.iconoContacto {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem auto;
+
+}
+
 .contactoFormulario {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin: 2rem;
-    height: 22rem;
-
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 6px 8px rgba(242, 54, 54, 0.2);
+    max-width: 90%;
 }
 
-.contactoFormulario input {
+.contactoFormulario input,
+.contactoFormulario textarea {
+    width: 90%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
     font-size: 1.25rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.contactoFormulario input:focus,
+.contactoFormulario textarea:focus {
+    outline: none;
+    border-color: rgba(242, 54, 54, 0.8);
+    box-shadow: 0 0 0 2px rgba(242, 54, 54, 0.2);
 }
 
 .contactoFormulario textarea {
     font-size: 1.25rem;
-    resize: none; /* Evita que el usuario cambie el tamaño del textarea */
-    height: 8rem; /* Ajusta la altura según sea necesario */
+    resize: none;
+    height: 8rem;
+    margin-bottom: 1.5rem;
+}
+
+.contactoFormulario input[type="submit"] {
+    width: 80%;
+    background-color: rgba(242, 54, 54, 0.8);
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border: none;
+    padding: 0.8rem 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contactoFormulario input[type="submit"]:hover,
+.contactoFormulario input[type="submit"]:focus {
+    background-color: rgba(242, 54, 54, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
 ::placeholder {
-  opacity: 0.5; /* Puedes ajustar este valor entre 0 y 1 */
-  color: black; /* Un color gris claro es común para placeholders */
-  font-size: 1rem;
-}
-
-.iconoContacto {
-    width: 3.5rem;
-    height: 3.5rem;
+    opacity: 0.6;
+    color: #888;
+    font-size: 1rem;
+    font-style: italic;
 }
 
 
