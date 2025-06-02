@@ -132,9 +132,6 @@ justify-content: center;
     font-size: 1.35rem;
   }
   
-.categoriaHijos:hover .categoriaTexto {
-    opacity: .9;
-  }
 
 
 .articuloPeliculas {
@@ -331,6 +328,8 @@ justify-content: center;
     font-size: 4rem;
     text-decoration: none;
     padding: 2rem;
+            padding-top: 0;
+        padding-bottom: 0;
     color: black;
 }
 
@@ -552,6 +551,12 @@ iframe {
     .contenedorHijosSecundario p {
         font-size: 2rem;
     }
+    .contenedorHijosSecundario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
 
 
 }
@@ -625,13 +630,20 @@ iframe {
         margin-top: 5rem;
     }
 
+    .titulosLeerMas{
+        font-size: 2rem;
+        width: 18rem;
+    }
 
 
     .articuloTexto{
-        margin-left: 10%;
         width: 60ch;
         text-align: justify;
         
+    }
+
+    .articuloTexto p{
+        font-size: 5rem;
     }
 
    
@@ -671,22 +683,8 @@ iframe {
         height: 600px;
   }
   
-    .articuloPeliculasSecundario img {
-        max-width: 450px;
-        height: 600px;
-        width: 100%;
-  }
 
-    .articuloPeliculasSecundario {
-        display: flex;
-        flex-direction: row;
-    }
 
-    .contenedorHijosSecundario {
-        display: flex;
-        flex-direction: row;
-        
-    }
 
     .contenedorHijosSecundario p {
         font-size: 1.75rem;
@@ -765,4 +763,44 @@ iframe {
         width: 60%;
         margin: 0 auto;
     }
+
+    .contenedorHijosSecundario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .calificacion img {
+    width: 3.5rem; /* 24px */
+    height: 3.5rem; /* 24px */
+    vertical-align: middle;
+}
+
+    .textoSecu {
+        width: 60%;
+    }
+    .botonSiguienteAnteriorMas:hover {
+        transition: .5s ease;
+        border-radius: 10rem; /* 8px */
+        background-color: rgba(242,54,54,0.56);
+box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+-webkit-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+
+
+    }
+
+    .generoLeerMas{
+        width: auto;
+        margin-left: 40%;
+    }
+
+.categoriaHijos:hover .categoriaTexto {
+    opacity: .9;
+  }
+
+
 }
