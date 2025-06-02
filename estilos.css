@@ -113,10 +113,11 @@ justify-content: center;
   
 .categoriaHijos img {
     width: 100%;
-    max-width: 300px;
+    max-width: 270px;
     height: 100%;
     object-fit: cover;
     display: block;
+    margin: 0 auto;
   }
   
 .categoriaTexto {
@@ -233,8 +234,8 @@ justify-content: center;
 .articuloPeliculas img,
 .articuloPeliculas2 img {
   width: 100%;
-  max-width: 350px; 
-  height: 500px;
+  max-width: 280px; 
+  height: 400px;
   object-fit: cover;
 }
 
@@ -800,6 +801,21 @@ box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
 
 .categoriaHijos:hover .categoriaTexto {
     opacity: .9;
+  }
+.articuloPeliculas img,
+.articuloPeliculas2 img {
+  width: 100%;
+  max-width: 350px; 
+  height: 500px;
+  object-fit: cover;
+}
+
+.categoriaHijos img {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
 
