@@ -322,6 +322,9 @@ justify-content: center;
     font-size: 1.5rem; /* 24px */
     text-decoration: none;
     color: black;
+        border: 2px solid black;
+    background-color: rgba(242,54,54,0.56);
+    border-radius: .625rem;
     
 
 }
@@ -410,7 +413,6 @@ justify-content: center;
     width: 80%;
     background-color: rgba(242, 54, 54, 0.8);
     color: white;
-    font-weight: bold;
     font-size: 1.25rem;
     border: none;
     padding: 0.8rem 0;
@@ -432,7 +434,6 @@ justify-content: center;
     opacity: 0.6;
     color: #888;
     font-size: 1rem;
-    font-style: italic;
 }
 
 
@@ -530,6 +531,9 @@ iframe {
     border: 2px solid black;
     width: 90%;
     margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -570,7 +574,7 @@ iframe {
 
 .generoLeerMas {
     margin-bottom: 2rem;
-    margin-left: 5%;
+    
 }
 
 
@@ -580,6 +584,10 @@ iframe {
     .iconoContacto{
         width: 7rem;
         height: 7rem;
+    }
+
+    .listaNav{
+        font-size: 1.65rem;
     }
 
     #contacto {
@@ -614,7 +622,7 @@ iframe {
 
     .generoLeerMas{
         width: auto;
-        margin-left: 37%;
+        
     }
 
 
@@ -718,7 +726,9 @@ iframe {
   }
   
 
-
+  .articuloSigAnterior{
+    margin-top: 4rem;
+  }
 
     .contenedorHijosSecundario p {
         font-size: 1.75rem;
@@ -744,6 +754,7 @@ iframe {
         
         
     }
+    
 
     .contenedorSobreMi {
         flex-direction: row;
@@ -762,6 +773,7 @@ iframe {
 
     .botonSiguienteAnterior{
         padding: .2rem 1.5rem;
+        font-size: 1.75rem;
     }
 
     .botonSiguienteAnterior:hover {
@@ -795,41 +807,47 @@ iframe {
 
     .contactoFormulario{
         width: 60%;
-        margin: 0 auto;
     }
+
 
     .contenedorHijosSecundario{
         display: flex;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
-        
 
     }
+
+    .textoSecu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+
     .calificacion img {
     width: 3.5rem; /* 24px */
     height: 3.5rem; /* 24px */
     vertical-align: middle;
 }
 
-    .textoSecu {
-        width: 60%;
-    }
+
     .botonSiguienteAnteriorMas:hover {
         transition: .5s ease;
         border-radius: 10rem; /* 8px */
         background-color: rgba(242,54,54,0.56);
-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
--webkit-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
--moz-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
-
-
+        box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+        -webkit-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+        -moz-box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
+        
     }
 
-    .generoLeerMas{
-        width: auto;
-        margin-left: 42%;
+    .botonSiguienteAnteriorMas{
+        padding-top: 0;
+        padding-bottom: 0;
     }
+
+
 
 .categoriaHijos:hover .categoriaTexto {
     opacity: .9;
@@ -850,6 +868,8 @@ box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
     display: block;
   }
 
+  
+
     
     .navEscritorioLista {
         display: flex;
@@ -866,6 +886,31 @@ box-shadow: 0px 0px 0px 3px rgba(0,0,0,1);
         margin: 0 1rem;
         text-align: center;
         display: inline-block;
+        
     }
+
+    .navEscritorioLista p{
+        font-size: 1.75rem;
+    }
+
+
+    iframe{
+        width: 100%;
+        max-width: 800px;
+        height: 450px;
+    }
+
+    .textoFooter{
+        font-size: 1.75rem;
+    }
+
+    .footerIcono{
+        width: 2.7rem; /* 48px */
+        height: 2.7rem; /* 48px */
+    }
+  .listaNav{
+    font-size: 1.75rem;
+  }
+
 
 }
