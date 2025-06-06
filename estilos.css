@@ -323,9 +323,9 @@ justify-content: center;
     text-decoration: none;
     color: black;
         border: 2px solid black;
-   /*  background-color: rgba(242,54,54,0.56);*/
+    background-color: rgba(242,54,54,0.56);
     border-radius: .625rem;
-    padding-left: 2.25rem;
+        padding-left: 2.25rem;
     padding-right: 2.25rem;
     background-color: white;
     
@@ -348,15 +348,9 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
-#contacto {
-    width: 100%;
-    margin: 0 auto;
-    height: auto;
-    
-}
+
 
 /* Estilos mejorados para el formulario en versión móvil */
 #contacto {
@@ -597,6 +591,7 @@ iframe {
 
     #contacto {
         height: auto;
+        
     }
 
 
@@ -785,7 +780,7 @@ iframe {
     .botonSiguienteAnterior:hover {
     transition: .5s ease;
     background-color: rgb(197, 196, 196);
-    border-radius: .6rem; /* 8px */
+
     
 }
     input[type="submit"]:hover {
@@ -795,7 +790,7 @@ iframe {
     }
 
     input[type="submit"] {
-    font-size: 1.5rem; /* 24px */
+    font-size: 1.25rem; /* 24px */
     cursor: pointer;
 }
 
@@ -808,7 +803,7 @@ iframe {
 
     #contacto {
         height: auto;
-        
+        width: 74%;
     }
 
     .contactoFormulario{
@@ -913,15 +908,19 @@ iframe {
     }
 
     .textoFooter{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .footerIcono{
-        width: 2.7rem; /* 48px */
-        height: 2.7rem; /* 48px */
+        width: 2.3rem; /* 48px */
+        height: 2.3rem; /* 48px */
     }
   .listaNav{
     font-size: 1.75rem;
+  }
+
+  .contactoFormulario input{
+    font-size: 1.05rem;
   }
 
 
