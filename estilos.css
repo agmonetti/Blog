@@ -42,6 +42,7 @@ hr {
     display: none;
 }
 
+
 .contenido{
     background-image: url(imagenes/FondoVersion2.jpg);
     background-size: fill; /* Cubre toda el área */
@@ -70,7 +71,7 @@ hr {
 .textoCat {
     font-size: 3.125rem; /* 50px */
     margin: 0 auto;
-    margin-top: 2.5rem;;
+    margin-top: 2.5rem;
     margin-bottom: 3.5rem;
     align-self: flex-start; 
 
@@ -88,7 +89,9 @@ hr {
     flex-wrap: wrap;
     height: auto;
     justify-content: center;
-    margin-bottom: 30vh;
+    background-image: url(imagenes/FondoCat.jpg);
+    background-size: auto; /* Cambia de 'fill' a 'cover' */
+    background-position:0%    
 
 }
 
@@ -667,9 +670,16 @@ iframe {
         scroll-margin-top: 7.5rem; /* 120px */
     }
 
+    .categorias{
+            height: 51.5rem;
+              background-size: fill; /* Cambia de 'fill' a 'cover' */
+    background-repeat: repeat; /* Cambia de 'repeat' a 'repeat-y' */
+    background-position: center;
 
-    .textoCat {
-        margin-top: 6.25rem;  
+    }
+
+
+    .textoCat { 
         margin-bottom: 9.375rem; 
         align-self: flex-start; 
         margin-left: 12.5rem; 
