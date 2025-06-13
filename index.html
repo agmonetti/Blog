@@ -107,6 +107,21 @@
   <section class="categorias">
 
 
+    <div class="colapsableMobile">
+        <button type="button" class="botonDesplegable">Categorias</button> 
+
+        <div class="contenidoDesplegable">
+            <ul class="listaDesplegable">
+                <li><a href="#accion">Accion</a></li>
+                <li><a href="#comediaRom">Comedia</a></li>
+                <li><a href="#fantasia">Fantasia</a></li>
+                <li><a href="#comediaRom">Romance</a></li>
+                <li><a href="#animada">Animada</a></li>
+
+            </ul>
+        </div>
+
+    </div>
 
     <div>
         <p class="textoCat">Categorias</p>
@@ -269,6 +284,21 @@
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
+// ...existing code...
+var coll = document.getElementsByClassName("botonDesplegable");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+}
     </script>
 </body>
 

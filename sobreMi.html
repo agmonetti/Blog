@@ -15,19 +15,10 @@
 </head>
 <body>
       <header>
-        <div class="introduccionBlog">
-            <div class="intro-header-flex">
-                <h2>Agus's Blog</h2>
-                <span class="menu-hamburguesa" onclick="openNav()">&#9776;</span>
-            </div>
-            
-            <div class="bienvenida">
-                <div class="subBienvenida">
-                <h3 >análisis</h3> <br><br>
-                <h3 >reseñas</h3> <br><br>
-                <h3 >recomendaciones</h3> <br><br>
-                <h3 >TODO en un lugar</h3>
-                </div>  
+        <div class="introduccionBlog2">
+            <div class="intro-header-flex2">
+                <h2>Sobre Mi</h2>
+                <span class="menu-hamburguesa2" onclick="openNav()">&#9776;</span>
             </div>
             <nav style="position: relative;">
                 <div id="myNav" class="navEscritorio">
@@ -43,7 +34,6 @@
         </div>
 
   </header>
-
   <section class="seccionSobreMi">
     <div class="contenedorSobreMi">
         <img src="imagenes/spiderman.jpg" alt ="logo" class="fotoPerfil">
@@ -57,5 +47,17 @@
     </div>  
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104347.10345347832!2d-59.18931663544739!3d-35.18536617921258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd00ac657508d3%3A0x8ce899838400d1d4!2sLobos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1743442116925!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
+
+<script>
+    
+            function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+</script>
+
 </body>
 </html>
