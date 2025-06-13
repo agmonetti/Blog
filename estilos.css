@@ -10,6 +10,9 @@ html {
     font-size: 100%; /* 16px  es 1 rem*/  
 }
 
+h2 , h3, h1 {
+    font-family: "Cinzel", serif;
+}
 
 
 body {
@@ -90,15 +93,7 @@ hr {
         right: 35px;
     }
 
-    .menu-hamburguesa {
-        position: absolute;
-        top: 1rem;
-        right: 1.5rem;
-        transform: none;
-        font-size: 2.5rem;
-        cursor: pointer;
-        z-index: 10;
-    }
+
 
 
 
@@ -142,91 +137,99 @@ hr {
 }
 
 .introduccionBlog{
+    /*
     background-image: url(imagenes/presntacionRosa.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+
+    background-repeat: repeat;
+    width: 100%; 
     height: 42rem;
-    color: yellow;
+    color: #f236368f;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    background-image: url(imagenes/fondo\ nuevo.jpg);
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
-.intro-header-flex  {
-    
-    text-align: left;
-    padding-top: 20%;
-    height: 20%;
-    font-size: 2rem;
-}
 
-.intro-header-flex h2{
-    font-family: 'fuenteTitulo2', normal;
-    font-size: 3rem; /* 50px */
-    letter-spacing: .4rem;
+
+.intro-header-flex {
     border: 2px solid black;
-    box-shadow: -8px 2px 0px -1px black;
-    -webkit-box-shadow: -8px 2px 0px -1px black;
-    -moz-box-shadow: -8px 2px 0px -1px black;
-    background-color: #cddafd;
-    color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    text-align: center;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
-
+    background-color: #f9fbf0;
+    height: 85%;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.bienvenida{
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    
+.intro-header-flex h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 800;
 }
 
-.subBienvenida {
-    font-family: 'fuenteTitulo', serif;
-    color: white;
-    width: 80%;
-    margin: 0 auto;
-        background-color:#cddafd;
-    border: 2px solid black;
-    height: 70%;
-      box-shadow:
-      /* Amarillo solo arriba */
-    10px 10px 0 6px #00ff9d,   /* Verde abajo derecha */
-    20px 20px 0 6px #0ae,
-    14px -10px 0 10px #f3f315; 
-    border-radius: 20px;
+.intro-header-flex h3 {
+    font-size: .75rem;
+    text-align: left;
+    margin-top: -1rem;
 }
 
-.subBienvenida h3{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
+.intro-breve {
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 2rem;  
+    height: 95%;
 }
 
 
+.intro-breve h1 {
+    font-family: 'Leluja';
+    font-weight: 500;
+    line-height: 1.5;
 
+    font-size: 2.92rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #e37878; /* o el color que estés usando */
+    margin: 0;
+
+}
+
+.intro-breve p{
+    padding-top: 1.25rem;
+}
 
 @font-face {
-  font-family: 'fuenteTitulo';
-  src: url('font/LEMONMILK-Medium.otf') format('truetype');
+  font-family: 'Leluja';
+  src: url('font/LelujaOriginal-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-    font-family: 'fuenteTitulo2';
-    src: url(font/Birds\ of\ Paradise\ ╕\ PERSONAL\ USE\ ONLY.ttf);
+.menu-hamburguesa {
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+    transform: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    z-index: 10;
 }
+
+
+
+
+
 .categorias {
     display: flex;
     flex-direction: column;
