@@ -41,7 +41,7 @@ hr {
 }
 
 /* Boton desplegable nav */
-    .navEscritorio {
+    .navMobile {
         height: 0%;
         width: 100%;
         position: fixed;
@@ -53,7 +53,7 @@ hr {
         transition: 0.5s;
     }
 
-    .navEscritorio-content {
+    .navMobile-content {
         position: relative;
         top: 25%;
         width: 100%;
@@ -61,7 +61,7 @@ hr {
         margin-top: 30px;
     }
 
-    .navEscritorio a {
+    .navMobile a {
         padding: 8px;
         text-decoration: none;
         font-size: 36px;
@@ -72,22 +72,22 @@ hr {
 
 
 
-    .navEscritorio .closebtn {
+    .navMobile .closebtn {
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-size: 10rem;
     }
 
-    .navEscritorio {
+    .navMobile {
         overflow-y: auto;
     }
 
-    .navEscritorio a {
+    .navMobile a {
         font-size: 1.5rem;
     }
 
-    .navEscritorio .closebtn {
+    .navMobile .closebtn {
         font-size: 4rem;
         top: 15px;
         right: 35px;
@@ -452,6 +452,10 @@ display: none;
     font-size: 1.5rem;
 }
 
+.introduccionBlogDesktop{
+    display: none;
+}
+
 .articuloPeliculas2 {
     display: flex;
     flex-direction: column;
@@ -811,6 +815,13 @@ iframe {
     
 }
 
+.navDesk{
+    display: none;
+}
+
+.mobile{
+    position: relative;
+}
 
 /* Estilo para tablets */
 @media (min-width: 730px) and (max-width: 1025px) {
@@ -820,8 +831,17 @@ iframe {
         height: 7rem;
     }
 
+    .menu-hamburguesa{
+        top: 3rem;
+        right: 4rem;
+    }
+
     .listaNav{
         font-size: 1.65rem;
+    }
+
+    .introduccionBlog{
+        height: 50rem;
     }
 
     #contacto {
@@ -860,6 +880,9 @@ iframe {
         
     }
 
+    .botonSiguienteAnterior{
+        width: 30%;
+    }
 
 
 }
@@ -897,12 +920,11 @@ iframe {
 
     }
 
-
-    .textoCat { 
-        margin-bottom: 9.375rem; 
-        align-self: flex-start; 
-        margin-left: 12.5rem; 
+    .mobile{
+        display: none;
     }
+
+
 
     .articuloPeliculas {
         flex-direction: row;
@@ -1157,16 +1179,10 @@ iframe {
 
   
 
-/*     
-    .navEscritorioLista {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        list-style: none;
-        padding: 0;
-    }
+     
+ .menu-hamburguesa{
+    display: none;
+ }
 
     
     .navEscritorio p {
@@ -1178,7 +1194,7 @@ iframe {
 
     .navEscritorioLista p{
         font-size: 1.75rem;
-    } */
+    }
 
 
     iframe{
@@ -1221,13 +1237,13 @@ iframe {
 }
 
 .textoCat{
-    text-align: left;
-    width: 12%;
+    width: auto;
     font-size: 3.125rem; /* 50px */
     margin-top: 2.5rem;
     margin-bottom: 3.5rem;
     display: inline-block;
-    border: 2px solid red;
+    text-align: center;
+    color: black;
 }
 
 .categoriaRow{
@@ -1263,5 +1279,95 @@ justify-content: center;
     background: white;
     width: 70%;
 }
+
+
+
+    .introduccionBlog{
+        display: none;
+    }
+
+
+
+    .navDesk {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem; /* 20px */
+        margin-top: 1.25rem; /* 20px */
+        font-size: 1.5rem;
+        border-bottom: 2px solid black;
+    }
+    .navMobile {
+        display: none;
+    }
+
+        .categorias{
+        border: 2px solid green;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .introduccionBlogDesktop{
+            background-repeat: repeat;
+    width: 100%; 
+    height: 100%;
+    color: #f236368f;
+    display: inline-flex;
+    border: 2px solid yellow;
+    }
+
+    .intro-header-flexDesktop {
+    border: 2px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #f9fbf0;
+    height: 85%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.intro-header-flexDesktop h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 800;
+}
+
+.intro-header-flexDesktop h3 {
+    font-size: .75rem;
+    text-align: left;
+    margin-top: -1rem;
+}
+
+.intro-breveDesktop {
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 2rem;  
+    height: 95%;
+}
+
+
+.intro-breveDesktop h1 {
+    font-family: 'Leluja';
+    font-weight: 500;
+    line-height: 1.5;
+
+    font-size: 2.92rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #e37878; /* o el color que estés usando */
+    margin: 0;
+
+}
+
+.intro-breve p{
+    padding-top: 1.25rem;
+}
+
+
 
 }
