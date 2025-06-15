@@ -55,7 +55,7 @@
 
       <header>
         <nav class="navDesk">
-        <div id="myNav" class="navEscritorio">
+        <div id="myNavEsc" class="navEscritorio">
             <div class="navEscritorio-content">
                 <a href="index.html" class="listaNav">Inicio</a>
                 <a href="sobreMi.html" class="listaNav">Sobre Mi</a>
@@ -92,19 +92,39 @@
             </div>
             <nav class="mobile">
                 <div id="myNav" class="navMobile">
+                    
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <div class="navMobile-content">
                         <a href="index.html" class="listaNav">Inicio</a>
                         <a href="sobreMi.html" class="listaNav">Sobre Mi</a>
                         <a href="https://agmonetti.github.io/LinktreeClone/" class="listaNav">Linktree</a>
-                        <a href="#contacto" class="listaNav">Contacto</a>
+                        <a href="#contacto" class="listaNav" onclick="closeNav()">Contacto</a>
                     </div>
                 </div>
+                
             </nav>
         </div>
 
 
   </header>
+  <section class="categoriasMobile">
+
+    <div class="colapsableMobile">
+        <button type="button" class="botonDesplegable">Categorias</button> 
+
+        <div class="contenidoDesplegable">
+            <ul class="listaDesplegable">
+                <li><a href="#accion">Accion</a></li>
+                <li><a href="#comediaRom">Comedia</a></li>
+                <li><a href="#fantasia">Fantasia</a></li>
+                <li><a href="#comediaRom">Romance</a></li>
+                <li><a href="#animada">Animada</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+  </section>
 
   <section class="categorias">
 
@@ -127,21 +147,6 @@
  
             </div>
 
-    <div class="colapsableMobile">
-        <button type="button" class="botonDesplegable">Categorias</button> 
-
-        <div class="contenidoDesplegable">
-            <ul class="listaDesplegable">
-                <li><a href="#accion">Accion</a></li>
-                <li><a href="#comediaRom">Comedia</a></li>
-                <li><a href="#fantasia">Fantasia</a></li>
-                <li><a href="#comediaRom">Romance</a></li>
-                <li><a href="#animada">Animada</a></li>
-
-            </ul>
-        </div>
-
-    </div>
 
     <div>
         <p class="textoCat">Categorias</p>

@@ -72,6 +72,8 @@ hr {
 
 
 
+
+
     .navMobile .closebtn {
         display: flex;
         flex-direction: column;
@@ -117,6 +119,10 @@ hr {
     transition: all 0.3s ease;
     
    
+}
+
+.categoriasMobile{
+    display: inline
 }
 
 
@@ -1367,6 +1373,11 @@ justify-content: center;
 .intro-breve p{
     padding-top: 1.25rem;
 }
+
+.categoriasMobile{
+    display: none
+}
+
 
 
 
