@@ -28,6 +28,10 @@ body {
     
 }
 
+footer {
+    background-color: white;
+}
+
 
 
 img {
@@ -280,6 +284,7 @@ hr {
     align-items: center;
     margin: .5rem auto;
     width: 90%;
+    color:#f236368f ;
 }
 .intro-header-flex2 h2{
     text-align: left;
