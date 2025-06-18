@@ -907,7 +907,14 @@ iframe {
 /* Estilo para escritorio */
 @media (min-width: 1025px) {
 
-    
+    body {
+        background-image: url(imagenes/FondoVersion2.jpg);
+    }
+
+    header {
+
+       
+    }
 
     html {
         scroll-padding-top: 7.5rem;
@@ -931,6 +938,7 @@ iframe {
 
     .categorias{
             height: 51.5rem;
+            background-color: #f9fbf0;
 
     }
 
@@ -1303,16 +1311,7 @@ justify-content: center;
 
 
 
-    .navDesk {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 1.25rem; /* 20px */
-        margin-top: 1.25rem; /* 20px */
-        font-size: 1.5rem;
-        border-bottom: 2px solid black;
-    }
+
 
 
 .navMobile {
@@ -1323,16 +1322,16 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
-
+    width: 90%;
+    margin: 0 auto;
+    
 }
 
 .introduccionBlogDesktop{
-    width: 100%; 
     height: 100%;
     color: #f236368f;
     display: inline-flex;
-    background-color: #f9fbf0;
+  
     
 }
 
@@ -1343,14 +1342,15 @@ justify-content: center;
     padding-left: 1rem;
     padding-right: 1rem;
     border: 2px solid black;
-    border-top: none;
+    
+    
 }
 
 .seccionCat{
-    width: 60%;
     border: 2px solid black;
     border-left: none;
-    border-top: none;
+    
+    
 }
 
 
@@ -1400,37 +1400,30 @@ justify-content: center;
 
 
 
-.navEscritorioSecu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    
-
-}
-
-.navEscritorio-contentSecu {
-    display: flex;
-    width: 100%;
-    gap: 1.25rem; /* Para espaciar los enlaces entre sí */
-   
-   
-}
-
-.navEscritorio-contentSecu p{
-    margin-right: auto;
-} 
 
 
 
+    .navDesk {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem; /* 20px */
+        font-size: 1.5rem;
+        background-color: #f9fbf0;
+        width: 60%;
+        margin: .5rem auto;
+        
+    }
 
-.navDeskSecu {
+
+/* .navDeskSecu {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 1.25rem; /* 20px */
+    gap: 1.25rem; 
     padding-top: .625rem;
     padding-bottom: .625rem;
     border: 2px solid black;
@@ -1438,5 +1431,51 @@ justify-content: center;
     width: 80%;
     margin: .5rem auto;
     
+} */
+
+    .navDeskSecu {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 1.25rem; /* 20px */
+        font-size: 1.5rem;
+       
+        width: 100%;
+        margin: 0 auto;
+
+        height: 82%;
+    }
+
+.navEscritorioSecu{
+    width: 60%;
+    margin: 0 auto;
+     background-color: #f9fbf0;
+}
+
+.navEscritorio-contentSecu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+
+/* El primer hijo es el <p> */
+.navEscritorio-contentSecu p {
+    
+    margin-right: auto; /* Esto empuja todo lo que está a la derecha del <p> */
+}
+
+/* Todos los enlaces */
+.navEscritorio-contentSecu a {
+    
+    margin-left: 1rem;
+}
+
+header {
+    margin-bottom: 1rem;
+    background-image: url(imagenes/fondonav.jpg);
+    border-bottom: 2px solid black;
+    height: 4.5rem;
 }
 }
