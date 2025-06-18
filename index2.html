@@ -9,26 +9,38 @@
 
 <body>
       <header>
-        <div class="introduccionBlog2">
+
+        <nav class="navDeskSecu">
+            <div id="myNavEsc" class="navEscritorioSecu">
+                <div class="navEscritorio-contentSecu">
+                    <p class="listaNav">Pagina 2</p>
+                    <a href="index.html" class="listaNav">Inicio</a>
+                    <a href="sobreMi.html" class="listaNav">Sobre Mi</a>
+                                <!-- <p><span style=" display:inline-block;vertical-align: middle; margin: 0 15px;">
+                        AGUSTIN MONETTI
+                        <span style="display:block; margin-bottom: 5px;">blog</span> -->
+                    <a href="https://agmonetti.github.io/LinktreeClone/" class="listaNav">Linktree</a>
+                    <a href="#contacto" class="listaNav">Contacto</a>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="mobile">
             <div class="intro-header-flex2">
                 <h2>Pagina 2</h2>
-                <span class="menu-hamburguesa2" onclick="openNav()">&#9776;</span>
+                    <span class="menu-hamburguesa2" onclick="openNav()">&#9776;</span>
             </div>
-            <nav class="mobile">
-                <div id="myNav" class="navMobile">
-                    
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <div class="navMobile-content">
-                        <a href="index.html" class="listaNav">Inicio</a>
-                        <a href="sobreMi.html" class="listaNav">Sobre Mi</a>
-                        <a href="https://agmonetti.github.io/LinktreeClone/" class="listaNav">Linktree</a>
-                        <a href="#contacto" class="listaNav" onclick="closeNav()">Contacto</a>
-                    </div>
+            <div id="myNav" class="navMobile">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="navMobile-content">
+                    <a href="index.html" class="listaNav">Inicio</a>
+                    <a href="sobreMi.html" class="listaNav">Sobre Mi</a>
+                    <a href="https://agmonetti.github.io/LinktreeClone/" class="listaNav">Linktree</a>
+                    <a href="#contacto" class="listaNav" onclick="closeNav()">Contacto</a>
                 </div>
-                
-            </nav>
-        </div>
-
+            </div>
+        </nav>
+        
   </header>
 
 <section class="contenido">
@@ -134,7 +146,7 @@
     </footer>
 
 <script>
-            function openNav() {
+        function openNav() {
             document.getElementById("myNav").style.height = "100%";
         }
 
