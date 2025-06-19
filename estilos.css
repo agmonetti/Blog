@@ -37,6 +37,19 @@ body.fondo-spiderman {
     background-image: url('imagenes/spidermanFondo.jpg');
 }
 
+
+body.fondoHarry {
+    position: relative;
+    z-index: 1;
+    background-image: url('imagenes/fondoHarry.jpg');
+}
+
+body.fondoPerder {
+    position: relative;
+    z-index: 1;
+    background-image: url('imagenes/fondoPerder.jpg');
+}
+
 /* ...existing code... */
 
 body {
@@ -936,9 +949,9 @@ iframe {
 /* Estilo para escritorio */
 @media (min-width: 1025px) {
 
-    /* body {
-        background-image: url(imagenes/FondoVersion2.jpg);
-    } */
+    body {
+        background-image: url(imagenes/fondo\ nuevo.jpg);
+    }
 
     body.fondo-futuro {
         position: relative;
@@ -1020,10 +1033,46 @@ iframe {
         pointer-events: none;
     }
 
-    header {
-
-       
+    body.fondoHarry {
+    position: relative;
+    z-index: 1;
+    background-image: none;
     }
+    body.fondoHarry::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('imagenes/fondoHarry.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.45;
+        z-index: -1;
+        pointer-events: none;
+    }
+    body.fondoPerder {
+        position: relative;
+        z-index: 1;
+        background-image: none;
+    }
+        body.fondoPerder::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('imagenes/fondoPerder.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.45;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+ 
 
     html {
         scroll-padding-top: 7.5rem;
