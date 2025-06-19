@@ -17,24 +17,24 @@ h2 , h3, h1 {
 body.fondo-futuro {
     position: relative;
     z-index: 1;
-    background-image: url('../imagenes/fondoFuturo.jpg');
+    background-image: url('imagenes/fondoFuturo.jpg');
     
 }
 
 body.fondo-cars {
     position: relative;
     z-index: 1;
-    background-image: url('../imagenes/fondoCars.jpg');
+    background-image: url('imagenes/fondoCars.jpg');
 }
 body.fondo-charlie {
     position: relative;
     z-index: 1;
-    background-image: url('../imagenes/fondoWilly.jpg');
+    background-image: url('imagenes/fondoWilly.jpg');
 }
 body.fondo-spiderman {
     position: relative;
     z-index: 1;
-    background-image: url('../imagenes/spidermanFondo.jpg');
+    background-image: url('imagenes/spidermanFondo.jpg');
 }
 
 /* ...existing code... */
@@ -952,7 +952,7 @@ iframe {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-image: url('../imagenes/fondoFuturo.jpg');
+        background-image: url('imagenes/fondoFuturo.jpg');
         background-size: cover;
         background-position: center;
         opacity: 0.45; /* Ajusta este valor según lo que quieras */
@@ -972,7 +972,7 @@ iframe {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-image: url('../imagenes/fondoCars.jpg');
+        background-image: url('magenes/fondoCars.jpg');
         background-size: cover;
         background-position: center;
         opacity: 0.45;
@@ -992,7 +992,7 @@ iframe {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-image: url('../imagenes/fondoWilly.jpg');
+        background-image: url('imagenes/fondoWilly.jpg');
         background-size: cover;
         background-position: center;
         opacity: 0.45;
@@ -1012,7 +1012,7 @@ iframe {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-image: url('../imagenes/spidermanFondo.jpg');
+        background-image: url('imagenes/spidermanFondo.jpg');
         background-size: cover;
         background-position: center;
         opacity: 0.45;
