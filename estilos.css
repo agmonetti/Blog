@@ -646,6 +646,8 @@ display: none;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 1rem;
     box-shadow: 0 4px 15px rgba(242, 54, 54, 0.8);;
+        /* Fondo sólido que tape el fondo del body */
+
 }
 
 .iconoContacto {
@@ -888,6 +890,7 @@ iframe {
     .iconoContacto{
         width: 7rem;
         height: 7rem;
+        background-image: none;
     }
 
     .menu-hamburguesa{
@@ -1097,6 +1100,10 @@ iframe {
     .categorias{
             height: 51.5rem;
             background-color: #f9fbf0;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-width: 1600px;
 
     }
 
@@ -1223,6 +1230,8 @@ iframe {
         
         
     }
+
+
     
 
     .contenedorSobreMi {
@@ -1282,9 +1291,18 @@ iframe {
 } */
 
     #contacto {
-        height: auto;
-        width: 74%;
+        height: 40rem;
+        width: 100%;
+            background-image: url(imagenes/FondoVersion2.jpg);
+    background-size: fill; /* Cubre toda el área */
+    background-repeat: repeat; /* Evita que la imagen se repita */
+        margin: 0;
+    padding: 0;
+    border-radius: 0;
+
     }
+    
+
 
     .contactoFormulario{
         width: 60%;
@@ -1482,6 +1500,7 @@ justify-content: center;
     flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
+
     
 }
 
@@ -1555,6 +1574,8 @@ justify-content: center;
 .categoriasMobile{
     display: none
 }
+
+
 
 
 
