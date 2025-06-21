@@ -606,7 +606,7 @@ display: none;
     scroll-margin-top: 31rem; /* 512px */
 }
 
-.botonSiguienteAnterior {
+.botonSiguienteAnteriorMobile {
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
@@ -759,7 +759,16 @@ display: none;
     flex-direction: column;
     /* border: red solid 2px; */
     justify-content: center;
+   
 }
+
+body.seccionSobreMi{
+        position: relative;
+    z-index: 1;
+    background-image: url(imagenes/seccionSobreMiFondo.jpg);
+    background-color: #c5f0ff;
+}
+
 
 .textoSobreMi {
     /* border: yellow solid 2px; */
@@ -768,8 +777,18 @@ display: none;
     width: 30ch;
     /* 20px */
     margin-top: 1.25rem; 
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 4px 4px 0 0 black;
    
-    
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.textoSobreMi span{
+    text-decoration: underline;
+    text-underline-offset: 6px;
 }
 
 .contenedorSobreMi {
@@ -780,6 +799,7 @@ display: none;
     gap: 1.25rem; /* 20px */
     margin-top: 1.25rem; 
     font-size: 1.25rem;
+
 }
 .fotoPerfil {
     width: 18.8rem; /* 300px */
@@ -872,6 +892,9 @@ iframe {
     display: none;
 }
 
+.botonDesktop{
+    display: none;
+}
 
 /* Estilo para tablets */
 @media (min-width: 730px) and (max-width: 1025px) {
@@ -881,6 +904,16 @@ iframe {
     padding-left: 5rem;
     
 }
+
+.seccionSobreMi{
+    
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
 
 .menu-hamburguesa2 {
     font-size: 2.5rem;
@@ -951,6 +984,10 @@ iframe {
 
 /* Estilo para escritorio */
 @media (min-width: 1025px) {
+
+    .botonDesktop{
+       display: inline;
+}
 
     body {
         background-image: url(imagenes/fondo\ nuevo.jpg);
@@ -1242,29 +1279,13 @@ iframe {
         height: 18.8rem; /* 300px */
     }
 
-    .botonSiguienteAnterior{
-        padding: .2rem 10rem;
-        font-size: 1.75rem;
-    font-size: 1.5rem; /* 24px */
-    text-decoration: none;
-    color: black;
-        padding-left: 2.25rem;
-    padding-right: 2.25rem;
-    background-color: white;
-      border: 1px solid #f236368f;
-  color: black;
-  box-shadow: #f236368f -4px -4px 0px 0px; 
+    .botonSiguienteAnteriorMobile{
+        display: none;
        
     }
 
-    .botonSiguienteAnterior:hover {
-    transition: .5s ease;
-      box-shadow: #f236368f 4px 4px 0px 0px;
-  border: 1.5px solid #f236368f;
-  transition: .3 ease-in-out;
+   
 
-    
-}
     input[type="submit"]:hover {
         transition: .5s ease;
         background-color: rgb(197, 196, 196);
