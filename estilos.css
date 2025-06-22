@@ -89,7 +89,7 @@ hr {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #441E1E;
+        background-color: #062863;
         overflow-y: hidden;
         transition: 0.5s;
     }
@@ -100,6 +100,7 @@ hr {
         width: 100%;
         text-align: center;
         margin-top: 30px;
+        
     }
 
     .navMobile a {
@@ -120,6 +121,7 @@ hr {
         flex-direction: column;
         justify-content: center;
         font-size: 10rem;
+        
     }
 
     .navMobile {
@@ -134,6 +136,7 @@ hr {
         font-size: 4rem;
         top: 15px;
         right: 35px;
+        
     }
 
 
@@ -175,8 +178,9 @@ hr {
 }
 .colapsableMobile {
     margin-top: 1.5rem;
-
+    padding-bottom: 1rem;
 }
+
 
 .active {
     background-color: #ccc;
@@ -184,21 +188,24 @@ hr {
 
 .botonDesplegable {
     font-size: 2rem;
-    background-color: #f236368f;
-    color: black;
+    background-color: white;
+    color: #062863;
     padding: .5rem;
     text-align: center;
     width: 60%; /* Asegurar que tome todo el ancho */
         border-radius: .5rem;
-    border: 2px solid black;
+    border: 2px solid #062863;
+    box-shadow: -4px -4px 0 0 #062863;
+    
 }
 
 .botonDesplegable:after {
     content: '\002B';
-    color: black; /* Cambiado a negro para mejor visibilidad */
+    color: #062863; /* Cambiado a negro para mejor visibilidad */
     font-weight: bold;
     float: right;
     margin-left: 5px;
+    
 }
 
 .active:after {
@@ -210,12 +217,15 @@ hr {
     padding: 0;
     display: none;
     overflow: hidden;
-    background-color: #f9fbf0;
+    background-color: #D5C5AB;
     transition: max-height 0.2s ease-out;
     width: 60%;
     margin: 0 auto;
-    border: 2px solid black;
+    border: 2px solid #062863;
+    box-shadow: 4px 4px 0 0 #062863;
     border-radius: .5rem;
+    
+    
 }
 
 .listaDesplegable {
@@ -231,7 +241,7 @@ hr {
 
 .listaDesplegable a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.5rem;
 }
 
@@ -251,7 +261,7 @@ hr {
     background-repeat: repeat;
     width: 100%; 
     height: 42rem;
-    color: #f236368f;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,7 +280,7 @@ hr {
     padding-bottom: 1rem;
     width: 85%;
     margin: 0 auto;
-    background-color: #f9fbf0;
+    background-color: #D5C5AB;
     height: 85%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -281,12 +291,14 @@ hr {
     margin-bottom: 1rem;
     text-align: left;
     font-weight: 800;
+    color:#062863
 }
 
 .intro-header-flex h3 {
     font-size: .75rem;
     text-align: left;
     margin-top: -1rem;
+    color:#062863
 }
 
 .intro-breve {
@@ -304,14 +316,15 @@ hr {
 
     font-size: 2.92rem;
     line-height: 1;
-    text-transform: uppercase;
-    color: #e37878; /* o el color que estés usando */
+    text-transform: uppercase; /* o el color que estés usando */
     margin: 0;
 
 }
 
 .intro-breve p{
     padding-top: 1.25rem;
+    color:#062863
+    
 }
 .intro-header-flex2{
     border: 2px solid black;
@@ -338,6 +351,7 @@ hr {
     align-self: right;
     text-align: right;
     padding-right: 1rem;
+    
 }
 
 @font-face {
@@ -355,7 +369,9 @@ hr {
     font-size: 2.5rem;
     cursor: pointer;
     z-index: 10;
+    color: #062863;
 }
+
 
 
 
