@@ -144,13 +144,24 @@ hr {
     }
 
 
-
+.fondoBlog{
+        background-image: url(imagenes/FondoVersion2_nuevocolorMobile.jpg);
+    background-size: contain;
+    background-position: center; 
+}
 
 
 .contenido{
-    background-image: url(imagenes/FondoVersion2.jpg);
-    background-size: fill; 
-    background-repeat: repeat;
+    background-image: url(imagenes/FondoVersion2_nuevocolorMobile.jpg);
+    background-size: contain;
+    background-position: center; 
+
+}
+
+.fondoSobreMi{
+    background-image: url(imagenes/FondoVersion2_nuevocolorMobile.jpg);
+    background-size: contain;
+    background-position: center; 
 }
 
 
@@ -269,10 +280,6 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(imagenes/fondo\ nuevo.jpg);
-      background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
     margin: 0 auto;
 }
 
@@ -590,7 +597,7 @@ display: none;
 }
 
 .footer {
-    border-top: .125rem solid black;
+    border-top: .125rem solid #062863;
     
 }
 
@@ -774,7 +781,7 @@ display: none;
     font-size: 1.25rem; /* 20px */;
     margin-top: .375rem; /* 6px */
     margin-bottom: .375rem; /* 6px */
-    color: black;
+    color: #062863;
 }
 
 
@@ -802,8 +809,10 @@ display: none;
 body.seccionSobreMi{
         position: relative;
     z-index: 1;
-    background-image: url(imagenes/seccionSobreMiFondo.jpg);
-    background-color: #c5f0ff;
+    background-image: url(imagenes/FondoVersion2_nuevocolor.jpg);
+    background-size: contain;
+    background-position: center;
+  
 }
 
 
@@ -811,12 +820,11 @@ body.seccionSobreMi{
     /* border: yellow solid 2px; */
     /* align-self: left; */
     text-align: justify;
-    width: 30ch;
     /* 20px */
     margin-top: 1.25rem; 
-    border: 2px solid black;
+    border: 2px solid #062863;
     background-color: white;
-    box-shadow: 4px 4px 0 0 black;
+    box-shadow: 4px 4px 0 0 #062863;
    
     padding-top: 6px;
     padding-left: 6px;
@@ -825,6 +833,7 @@ body.seccionSobreMi{
 
 .textoSobreMi span{
     text-decoration: underline;
+    text-decoration-color: #062863;
     text-underline-offset: 6px;
 }
 
@@ -834,16 +843,18 @@ body.seccionSobreMi{
     align-items: center;
     /* border: blue solid 2px; */
     gap: 1.25rem; /* 20px */
-    margin-top: 1.25rem; 
     font-size: 1.25rem;
+    width: 75%;
+    margin: 0 auto;
+    color: #062863;
 
 }
 .fotoPerfil {
     width: 18.8rem; /* 300px */
     height: 18.8rem; /* 300px */
-    border-radius: 100px;
+    border-radius: 40rem;
     object-fit: cover;
-    
+    border: 2px solid #062863;
 }
 
 iframe {
@@ -943,6 +954,49 @@ iframe {
 /* Estilo para tablets */
 @media (min-width: 730px) and (max-width: 1025px) {
 
+    /* Ajustar el fondo para que los iconos se vean mejor */
+.contenido {
+    background-image: url(imagenes/FondoVersion2_nuevocolor.jpg);
+    background-size: cover; /* Cambiar de contain a cover para mejor distribución */
+    background-position: center;
+    background-attachment: fixed; /* Fija el fondo para que no se mueva al hacer scroll */
+    position: relative;
+}
+
+/* Hacer el contenido más transparente para que se vean los iconos */
+.contenedorHijos {
+    background-color: rgba(255, 255, 255, 0.92); /* Más transparente */
+    box-shadow: 10px 11px 0px -2px rgba(213, 197, 171, 0.8);
+    -webkit-box-shadow: 10px 11px 0px -2px rgba(213, 197, 171, 0.8);
+    -moz-box-shadow: 10px 11px 0px -2px rgba(213, 197, 171, 0.8);
+    border: 2px solid rgba(213, 197, 171, 0.9);
+}
+
+/* Ajustar también el fondo de sobre mí para tablet */
+body.seccionSobreMi {
+    background-image: url(imagenes/FondoVersion2_nuevocolor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.textoSobreMi {
+    background-color: rgba(255, 255, 255, 0.95); /* Ligeramente transparente */
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Hacer el área de contacto más transparente */
+#contacto {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(2px); /* Efecto de desenfoque suave */
+}
+
+.contactoFormulario {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 6px 8px rgba(6, 40, 99, 0.3);
+}
+
     .intro-header-flex2 p{
     font-size: 1.75rem;
     padding-left: 5rem;
@@ -950,23 +1004,12 @@ iframe {
 }
 
 .intro-header-flex{
-    background-image: url(imagenes/fondoInicioTablet.jpg); /* Imagen específica para tablet */
+    background-image: url(imagenes/fondoInicioTablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: #D5C5AB; /* Fondo sólido que tape el fondo del body */
+    background-color: #D5C5AB;
 }
-
-
-.seccionSobreMi{
-    
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
-    
-}
-
-
 
 .menu-hamburguesa2 {
     font-size: 2.5rem;
@@ -996,7 +1039,6 @@ iframe {
         height: auto;
         
     }
-
 
     h2 {
         font-size: 2.5rem;
@@ -1032,6 +1074,9 @@ iframe {
         width: 30%;
     }
 
+.contenedorSobreMi{
+    width: 60%;
+}
 
 }
 
@@ -1042,9 +1087,7 @@ iframe {
        display: inline;
 }
 
-    body {
-        background-image: url(imagenes/fondo\ nuevo.jpg);
-    }
+
 
     body.fondo-futuro {
         position: relative;
@@ -1238,6 +1281,7 @@ iframe {
         padding-bottom: 0.25rem;
         background: none;
         border: none;
+        color: #062863;
     
     }
 
@@ -1319,9 +1363,12 @@ iframe {
 
 
     .seccionSobreMi{
+        display: flex;
         flex-direction: column;
-        margin-top: 2.5rem;
-        
+            background-image: url(imagenes/FondoVersion2_nuevocolorMobile.jpg);
+    background-size: contain;
+    background-position: center; 
+        margin: 0 auto;
         
     }
 
@@ -1329,18 +1376,17 @@ iframe {
     
 
     .contenedorSobreMi {
-        flex-direction: row;
-        justify-content: center;
         gap: 1.25rem; /* 20px */
         font-size: 1.5rem;
-        width: 100%;
+        width: 40%;
+        
         
     }
 
     .fotoPerfil {
-        margin-top: -3.5rem;
         width: 18.8rem; /* 300px */
         height: 18.8rem; /* 300px */
+        border-radius: 40rem;
     }
 
     .botonSiguienteAnteriorMobile{
@@ -1471,7 +1517,7 @@ iframe {
 
 
     iframe{
-        width: 100%;
+        width: 40%;
         max-width: 800px;
         height: 450px;
     }
@@ -1675,7 +1721,7 @@ justify-content: center;
     }
 
     header {
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     /*background-color: #D5C5AB;*/
     /*border-bottom: 2px solid #062863;*/
     height: 5rem;
@@ -1945,6 +1991,7 @@ justify-content: center;
   height: 220px;
   opacity: 1;
 }
+
 
 }
 @media (min-width: 1758px) {
