@@ -1997,7 +1997,7 @@ justify-content: center;
 
 
 }
-@media (min-width: 1758px) {
+@media (min-width: 1801px) {
     .categorias{
         height: 51.5rem;
         flex-wrap: wrap;
