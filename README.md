@@ -5,6 +5,6 @@ Colores:
   
 Tipografia:
 
-  . Titulos: 'Leluja' weight: 800, 500
+  . Titulos: 'Leluja' weight: 800, 500 <br>
   . Textos: 'Lato' weight: 400, 
         
