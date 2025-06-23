@@ -1012,6 +1012,11 @@ body.seccionSobreMi {
     background-color: #D5C5AB;
 }
 
+.menu-hamburguesa{
+    top: 3rem;
+    right: 5.5rem;
+}
+
 .menu-hamburguesa2 {
     font-size: 2.5rem;
     padding-right: 5rem;
@@ -1023,10 +1028,7 @@ body.seccionSobreMi {
         background-image: none;
     }
 
-    .menu-hamburguesa{
-        top: 3rem;
-        right: 4rem;
-    }
+
 
     .listaNav{
         font-size: 1.65rem;
