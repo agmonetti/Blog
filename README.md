@@ -1,7 +1,7 @@
 Colores:
 
-  #D5C5AB marron fondo
-  #062863 azul marino
+  #D5C5AB marron fondo <br>
+  #062863 azul marino <br>
   
 Tipografia:
 
