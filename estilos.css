@@ -289,7 +289,7 @@ hr {
     border: 2px solid black;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
     /*background-color: #D5C5AB; */
     background-image: url(imagenes/fondoInicioMobile.jpg);
@@ -484,6 +484,7 @@ display: none;
     border-radius: 20px;
 
 }
+
 
 
 .articuloImg{
@@ -705,6 +706,7 @@ display: none;
     background-color: white;
     display: flex;
     flex-direction: column;
+
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -790,13 +792,11 @@ display: none;
     height: 2rem; /* 32px */
     margin: 0.625rem; /* 10px */
     margin-top: .8rem;
+
+
 }
 
-.footerIcono:hover {
-    transition: .5s ease;
-    background-color: rgb(197, 196, 196);
-    border-radius: 1.25rem; /* 20px */
-}
+
 
 .seccionSobreMi {
     display: flex;
@@ -954,14 +954,18 @@ iframe {
 /* Estilo para tablets */
 @media (min-width: 730px) and (max-width: 1025px) {
 
-    /* Ajustar el fondo para que los iconos se vean mejor */
-.contenido {
+    /* Aplicar fondo consistente a todas las secciones principales */
+    body.fondoBlog {
     background-image: url(imagenes/FondoVersion2_nuevocolor.jpg);
-    background-size: cover; /* Cambiar de contain a cover para mejor distribución */
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Fija el fondo para que no se mueva al hacer scroll */
-    position: relative;
-}
+    background-attachment: fixed;
+    }
+
+ .contenido{
+    background-image: none;
+ }
+
 
 /* Hacer el contenido más transparente para que se vean los iconos */
 .contenedorHijos {
@@ -987,10 +991,7 @@ body.seccionSobreMi {
 }
 
 /* Hacer el área de contacto más transparente */
-#contacto {
-    background-color: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(2px); /* Efecto de desenfoque suave */
-}
+
 
 .contactoFormulario {
     background-color: rgba(255, 255, 255, 0.95);
@@ -1417,12 +1418,14 @@ body.seccionSobreMi {
     #contacto {
         height: 40rem;
         width: 100%;
-            background-image: url(imagenes/FondoVersion2.jpg);
-    background-size: fill; /* Cubre toda el área */
-    background-repeat: repeat; /* Evita que la imagen se repita */
         margin: 0;
     padding: 0;
     border-radius: 0;
+        background-image: url(imagenes/FondoVersion2_nuevocolorMobileContacto.jpg);
+    background-size: cover; /* Cambiar de contain a cover para mejor distribución */
+    background-position: center;
+  
+    position: relative;
 
     }
     
@@ -1529,7 +1532,16 @@ body.seccionSobreMi {
     .footerIcono{
         width: 2.3rem; /* 48px */
         height: 2.3rem; /* 48px */
+       
     }
+
+    .footerIcono:hover {
+        transition: .5s ease;
+        background-color: rgb(145, 143, 143);
+        border-radius: 1.25rem; /* 20px */
+   
+}
+
   .listaNav{
     font-size: 1.75rem;
   }
@@ -1720,6 +1732,31 @@ justify-content: center;
         
     }
 
+
+
+
+    
+    .navDeskSecu {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem; /* 20px */
+        font-size: 1.5rem;
+       
+        min-width: 60%;
+        margin: 0 auto;
+
+        height: 80%;
+        
+    }
+
+    .navEscritorio-contentSecu p {
+        padding-right: 15rem;
+    }
+
+
     header {
     /* margin-bottom: 1rem; */
     /*background-color: #D5C5AB;*/
@@ -1746,44 +1783,10 @@ justify-content: center;
     
 } */
 
-    .navDeskSecu {
-        display: flex;
-        flex-direction: row;
-        /* justify-content: center; */
-        align-items: center;
-        gap: 1.25rem; /* 20px */
-        font-size: 1.5rem;
-       
-        width: 100%;
-        margin: 0 auto;
 
-        height: 82%;
-    }
 
-.navEscritorioSecu{
-    width: 60%;
-    margin: 0 auto;
-     background-color: #D5C5AB;
-}
 
-.navEscritorio-contentSecu {
-    display: flex;
-    align-items: center;
-    width: 100%;
-   
-}
 
-/* El primer hijo es el <p> */
-.navEscritorio-contentSecu p {
-    
-    margin-right: auto; /* Esto empuja todo lo que está a la derecha del <p> */
-}
-
-/* Todos los enlaces */
-.navEscritorio-contentSecu a {
-    
-    margin-left: 1rem;
-}
 
 
 
